@@ -1,12 +1,12 @@
 body {
-  background-color: #d4ebff;
+  background-color: #d4ebff; /* pale blue */
 }
 
 
 h1 {
-  text-color: #ffe6cf;
+  text-color: #ffe6cf; /* very pale orange, used for contrast */
   text-align: center;
-  background-color: #96aeff;
+  background-color: #96aeff; /* navy blue */
 }
 
 h3 {
