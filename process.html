@@ -6,7 +6,6 @@
     <title>Process</title>
   </head>
   <body>
-    <h1>Tech Review Process</h1>
     <div class="topnav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -14,7 +13,17 @@
       <a class="active" href="process.html">Process</a>
       <a href="questions.html">Questions</a>
     </div>
-    <div id="navigation">
-		<a href="index.html"><button>Home</button></a></div> <!-- This will eventually be a back button to the page previously visited -->
+    	 <button id="backBtn">Back</button>
+
+<script>
+  document.getElementById("backBtn").addEventListener("click", () => {
+    if (window.history.length > 1) {
+		window.history.back();
+	}else{
+		window.location.href="index.html";
+	}
+  });
+</script>
+	  <h1>Tech Review Process</h1>
   </body>
 </html>
