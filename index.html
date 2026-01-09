@@ -15,6 +15,17 @@
       <a href="process.html">Process</a>
       <a href="questions.html">Questions</a>
     </div>
+  	 <button id="backBtn">Back</button>
+
+<script>
+  document.getElementById("backBtn").addEventListener("click", () => {
+    if (window.history.length > 1) {
+		window.history.back();
+	}else{
+		window.location.href="index.html";
+	}
+  });
+</script>
     <h2>Reviews</h2>
       <nav class="menu">
   <!-- Review pages will be created for all list options -->
